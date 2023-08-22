@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sysherrylee.github.io/blog/</loc>
+    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
+  </url><url>
     <loc>https://sysherrylee.github.io/categories/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
   </url><url>
@@ -23,9 +26,6 @@
     <loc>https://sysherrylee.github.io/tags/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/blog/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
     <loc>https://sysherrylee.github.io/tags/ilt/</loc>
     <lastmod>2023-04-28T09:03:08+08:00</lastmod>
   </url><url>
@@ -43,6 +43,12 @@
   </url><url>
     <loc>https://sysherrylee.github.io/about/</loc>
   </url><url>
-    <loc>https://sysherrylee.github.io/projects/</loc>
+    <loc>https://sysherrylee.github.io/ai/</loc>
+  </url><url>
+    <loc>https://sysherrylee.github.io/leetcode/</loc>
+  </url><url>
+    <loc>https://sysherrylee.github.io/scratch/</loc>
+  </url><url>
+    <loc>https://sysherrylee.github.io/archive/</loc>
   </url>
 </urlset>

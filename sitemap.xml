@@ -2,14 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sysherrylee.github.io/blog/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
+    <loc>https://sysherrylee.github.io/tags/ai/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/ai/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/ai/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/ai/ai2/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/categories/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/python/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/</loc>
+    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/leetcode/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
@@ -17,37 +35,52 @@
     <loc>https://sysherrylee.github.io/categories/leetcode/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/blog/leetcode.en/</loc>
+    <loc>https://sysherrylee.github.io/list/leetcode/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/tags/python/</loc>
+    <loc>https://sysherrylee.github.io/list/leetcode/leetcode1.en/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/tags/</loc>
+    <loc>https://sysherrylee.github.io/list/leetcode/leetcode2.en/</loc>
     <lastmod>2023-08-21T06:04:57+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/tags/ilt/</loc>
-    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+    <loc>https://sysherrylee.github.io/list/test2/</loc>
+    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/about/</loc>
+    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/about/aboutme/</loc>
+    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/categories/ilt/</loc>
+    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/test5/</loc>
+    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/about/</loc>
+    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/ai/ai/</loc>
+    <lastmod>2023-08-06T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/test3/</loc>
     <lastmod>2023-04-28T09:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/blog/ilt/</loc>
+    <loc>https://sysherrylee.github.io/list/test4/</loc>
     <lastmod>2023-04-28T09:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/blog/test1/</loc>
+    <loc>https://sysherrylee.github.io/tags/ilt/</loc>
+    <lastmod>2023-04-26T01:04:58+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/list/test1/</loc>
     <lastmod>2023-04-26T01:04:58+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-04-26T01:04:58+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/about/</loc>
-  </url><url>
-    <loc>https://sysherrylee.github.io/ai/</loc>
-  </url><url>
-    <loc>https://sysherrylee.github.io/leetcode/</loc>
-  </url><url>
-    <loc>https://sysherrylee.github.io/scratch/</loc>
+    <loc>https://sysherrylee.github.io/list/scratch/</loc>
   </url><url>
     <loc>https://sysherrylee.github.io/archive/</loc>
   </url>

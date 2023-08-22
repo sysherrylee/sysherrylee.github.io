@@ -11,10 +11,10 @@
     <lastBuildDate>Wed, 26 Apr 2023 01:04:58 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test1</title>
-      <link>https://sysherrylee.github.io/blog/test1/</link>
+      <link>https://sysherrylee.github.io/list/test1/</link>
       <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate>
       <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/blog/test1/</guid>
+      <guid>https://sysherrylee.github.io/list/test1/</guid>
       <description>&lt;p&gt;Markdown is a lightweight markup language used to add formatting elements to plaintext text documents. This article shows the syntax of markdown elements in hugo theme Walden.&lt;/p&gt;</description>
     </item>
     

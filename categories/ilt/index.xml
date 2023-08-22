@@ -8,22 +8,40 @@
     <language>zh-tw</language>
     <managingEditor>sysherry.lee@gmail.com (sysherry)</managingEditor>
     <webMaster>sysherry.lee@gmail.com (sysherry)</webMaster>
-    <lastBuildDate>Fri, 28 Apr 2023 09:03:08 +0800</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/ilt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 09:03:08 +0800</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/ilt/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ilt</title>
-      <link>https://sysherrylee.github.io/blog/ilt/</link>
+      <title>test5</title>
+      <link>https://sysherrylee.github.io/list/test5/</link>
+      <pubDate>Sun, 20 Aug 2023 09:03:08 +0800</pubDate>
+      <author>sysherry.lee@gmail.com (sysherry)</author>
+      <guid>https://sysherrylee.github.io/list/test5/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>test3</title>
+      <link>https://sysherrylee.github.io/list/test3/</link>
       <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate>
       <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/blog/ilt/</guid>
+      <guid>https://sysherrylee.github.io/list/test3/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>test4</title>
+      <link>https://sysherrylee.github.io/list/test4/</link>
+      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate>
+      <author>sysherry.lee@gmail.com (sysherry)</author>
+      <guid>https://sysherrylee.github.io/list/test4/</guid>
       <description>&lt;p&gt;test&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>test1</title>
-      <link>https://sysherrylee.github.io/blog/test1/</link>
+      <link>https://sysherrylee.github.io/list/test1/</link>
       <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate>
       <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/blog/test1/</guid>
+      <guid>https://sysherrylee.github.io/list/test1/</guid>
       <description>&lt;p&gt;Markdown is a lightweight markup language used to add formatting elements to plaintext text documents. This article shows the syntax of markdown elements in hugo theme Walden.&lt;/p&gt;</description>
     </item>
     

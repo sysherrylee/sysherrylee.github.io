@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Category on sysherry&#39;s blog</title>
+    <title>Categories on sysherry&#39;s blog</title>
     <link>https://sysherrylee.github.io/categories/</link>
-    <description>Recent content in Category on sysherry&#39;s blog</description>
+    <description>Recent content in Categories on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <managingEditor>sysherry.lee@gmail.com (sysherry)</managingEditor>
     <webMaster>sysherry.lee@gmail.com (sysherry)</webMaster>
-    <lastBuildDate>Fri, 28 Apr 2023 09:03:08 +0800</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Aug 2023 06:04:57 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Theme Walden</title>
-      <link>https://sysherrylee.github.io/categories/theme-walden/</link>
+      <title>leetcode</title>
+      <link>https://sysherrylee.github.io/categories/leetcode/</link>
+      <pubDate>Mon, 21 Aug 2023 06:04:57 +0000</pubDate>
+      <author>sysherry.lee@gmail.com (sysherry)</author>
+      <guid>https://sysherrylee.github.io/categories/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ilt</title>
+      <link>https://sysherrylee.github.io/categories/ilt/</link>
       <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate>
       <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/categories/theme-walden/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>行者无疆</title>
-      <link>https://sysherrylee.github.io/categories/%E8%A1%8C%E8%80%85%E6%97%A0%E7%96%86/</link>
-      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/categories/%E8%A1%8C%E8%80%85%E6%97%A0%E7%96%86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>魔都纪事</title>
-      <link>https://sysherrylee.github.io/categories/%E9%AD%94%E9%83%BD%E7%BA%AA%E4%BA%8B/</link>
-      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/categories/%E9%AD%94%E9%83%BD%E7%BA%AA%E4%BA%8B/</guid>
+      <guid>https://sysherrylee.github.io/categories/ilt/</guid>
       <description></description>
     </item>
     

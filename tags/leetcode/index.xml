@@ -6,25 +6,14 @@
     <description>Recent content in leetcode on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <managingEditor>sysherry.lee@gmail.com (sysherry)</managingEditor>
-    <webMaster>sysherry.lee@gmail.com (sysherry)</webMaster>
-    <lastBuildDate>Mon, 21 Aug 2023 06:04:57 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>leetcode1</title>
-      <link>https://sysherrylee.github.io/list/leetcode/leetcode1.en/</link>
-      <pubDate>Mon, 21 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/leetcode/leetcode1.en/</guid>
-      <description>&lt;p&gt;leetcode 題##&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>leetcode2</title>
-      <link>https://sysherrylee.github.io/list/leetcode/leetcode2.en/</link>
-      <pubDate>Mon, 21 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/leetcode/leetcode2.en/</guid>
-      <description>&lt;p&gt;leetcode 題##&lt;/p&gt;</description>
+      <title>Leetcode all</title>
+      <link>https://sysherrylee.github.io/2023/08/24/leetcode-all/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/24/leetcode-all/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -6,25 +6,14 @@
     <description>Recent content in ai on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <managingEditor>sysherry.lee@gmail.com (sysherry)</managingEditor>
-    <webMaster>sysherry.lee@gmail.com (sysherry)</webMaster>
-    <lastBuildDate>Tue, 22 Aug 2023 06:04:57 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 15:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ai2</title>
-      <link>https://sysherrylee.github.io/list/ai/ai2/</link>
-      <pubDate>Tue, 22 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/ai/ai2/</guid>
-      <description>&lt;p&gt;ai&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>ai</title>
-      <link>https://sysherrylee.github.io/list/ai/ai/</link>
-      <pubDate>Sun, 06 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/ai/ai/</guid>
-      <description>&lt;p&gt;ai&lt;/p&gt;</description>
+      <title>multi-channel CNN</title>
+      <link>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</link>
+      <pubDate>Tue, 22 Aug 2023 15:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</guid>
+      <description></description>
     </item>
     
   </channel>

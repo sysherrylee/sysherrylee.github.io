@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multichannel on sysherry&#39;s blog</title>
+    <link>https://sysherrylee.github.io/tags/multichannel/</link>
+    <description>Recent content in multichannel on sysherry&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 22 Aug 2023 15:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/multichannel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>multi-channel CNN</title>
+      <link>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</link>
+      <pubDate>Tue, 22 Aug 2023 15:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

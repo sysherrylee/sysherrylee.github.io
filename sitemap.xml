@@ -2,85 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sysherrylee.github.io/tags/ai/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/categories/ai/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/ai/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/ai/ai2/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
     <loc>https://sysherrylee.github.io/categories/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/python/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/</loc>
-    <lastmod>2023-08-22T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/leetcode/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/categories/leetcode/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/leetcode/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/leetcode/leetcode1.en/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/leetcode/leetcode2.en/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/test2/</loc>
-    <lastmod>2023-08-21T06:04:57+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/categories/about/</loc>
-    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/about/aboutme/</loc>
-    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/categories/ilt/</loc>
-    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/list/test5/</loc>
-    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
+    <loc>https://sysherrylee.github.io/tags/leetcode/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/08/24/leetcode-all/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/life/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/post/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/travel/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/08/24/hello-hugo/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/02/01/may-day-jiulonghu/</loc>
+    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/ai/</loc>
+    <lastmod>2023-08-22T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/ai-data/</loc>
+    <lastmod>2023-08-22T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</loc>
+    <lastmod>2023-08-22T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/multichannel/</loc>
+    <lastmod>2023-08-22T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/post/readme/</loc>
+    <lastmod>2019-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/about/</loc>
-    <lastmod>2023-08-20T09:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/list/ai/ai/</loc>
-    <lastmod>2023-08-06T06:04:57+00:00</lastmod>
+    <loc>https://sysherrylee.github.io/notes/</loc>
   </url><url>
-    <loc>https://sysherrylee.github.io/list/test3/</loc>
-    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+    <loc>https://sysherrylee.github.io/search/placeholder/</loc>
   </url><url>
-    <loc>https://sysherrylee.github.io/list/test4/</loc>
-    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/ilt/</loc>
-    <lastmod>2023-04-26T01:04:58+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/test1/</loc>
-    <lastmod>2023-04-26T01:04:58+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-04-26T01:04:58+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/list/scratch/</loc>
+    <loc>https://sysherrylee.github.io/search/</loc>
   </url><url>
     <loc>https://sysherrylee.github.io/archive/</loc>
   </url>

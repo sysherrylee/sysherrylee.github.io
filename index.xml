@@ -1,103 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on sysherry&#39;s blog</title>
+    <title>sysherry&#39;s blog</title>
     <link>https://sysherrylee.github.io/</link>
-    <description>Recent content in Home on sysherry&#39;s blog</description>
+    <description>Recent content on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <managingEditor>sysherry.lee@gmail.com (sysherry)</managingEditor>
-    <webMaster>sysherry.lee@gmail.com (sysherry)</webMaster>
-    <lastBuildDate>Tue, 22 Aug 2023 06:04:57 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ai2</title>
-      <link>https://sysherrylee.github.io/list/ai/ai2/</link>
-      <pubDate>Tue, 22 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/ai/ai2/</guid>
-      <description>&lt;p&gt;ai&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>leetcode1</title>
-      <link>https://sysherrylee.github.io/list/leetcode/leetcode1.en/</link>
-      <pubDate>Mon, 21 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/leetcode/leetcode1.en/</guid>
-      <description>&lt;p&gt;leetcode 題##&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>leetcode2</title>
-      <link>https://sysherrylee.github.io/list/leetcode/leetcode2.en/</link>
-      <pubDate>Mon, 21 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/leetcode/leetcode2.en/</guid>
-      <description>&lt;p&gt;leetcode 題##&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>test2</title>
-      <link>https://sysherrylee.github.io/list/test2/</link>
-      <pubDate>Mon, 21 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/test2/</guid>
+      <title>Leetcode all</title>
+      <link>https://sysherrylee.github.io/2023/08/24/leetcode-all/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/24/leetcode-all/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>about me</title>
-      <link>https://sysherrylee.github.io/about/aboutme/</link>
-      <pubDate>Sun, 20 Aug 2023 09:03:08 +0800</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/about/aboutme/</guid>
-      <description>&lt;p&gt;about me
-國小資訊老師&lt;/p&gt;</description>
+      <title>使用Hugo建立網站</title>
+      <link>https://sysherrylee.github.io/2023/08/24/hello-hugo/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/24/hello-hugo/</guid>
+      <description>有幾個特色</description>
     </item>
     
     <item>
-      <title>test5</title>
-      <link>https://sysherrylee.github.io/list/test5/</link>
-      <pubDate>Sun, 20 Aug 2023 09:03:08 +0800</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/test5/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <title>川西秘境探险</title>
+      <link>https://sysherrylee.github.io/2023/02/01/may-day-jiulonghu/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/02/01/may-day-jiulonghu/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>ai</title>
-      <link>https://sysherrylee.github.io/list/ai/ai/</link>
-      <pubDate>Sun, 06 Aug 2023 06:04:57 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/ai/ai/</guid>
-      <description>&lt;p&gt;ai&lt;/p&gt;</description>
+      <title>multi-channel CNN</title>
+      <link>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</link>
+      <pubDate>Tue, 22 Aug 2023 15:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>test3</title>
-      <link>https://sysherrylee.github.io/list/test3/</link>
-      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/test3/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <title>Clean White Theme for Hugo</title>
+      <link>https://sysherrylee.github.io/post/readme/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/post/readme/</guid>
+      <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme. It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme. These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster</description>
     </item>
     
     <item>
-      <title>test4</title>
-      <link>https://sysherrylee.github.io/list/test4/</link>
-      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/test4/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
+      <title></title>
+      <link>https://sysherrylee.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/about/</guid>
+      <description>關於我 未來老師x軟體工程師。在這邊記錄吃飯的知識跟一些想法。 email: sysherry.lee@gmail.com</description>
     </item>
     
     <item>
-      <title>test1</title>
-      <link>https://sysherrylee.github.io/list/test1/</link>
-      <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate>
-      <author>sysherry.lee@gmail.com (sysherry)</author>
-      <guid>https://sysherrylee.github.io/list/test1/</guid>
-      <description>&lt;p&gt;Markdown is a lightweight markup language used to add formatting elements to plaintext text documents. This article shows the syntax of markdown elements in hugo theme Walden.&lt;/p&gt;</description>
+      <title></title>
+      <link>https://sysherrylee.github.io/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/notes/</guid>
+      <description>Go 语言学习笔记 Envoy 学习笔记</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://sysherrylee.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>所有文章</title>
+      <link>https://sysherrylee.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/archive/</guid>
+      <description></description>
     </item>
     
   </channel>

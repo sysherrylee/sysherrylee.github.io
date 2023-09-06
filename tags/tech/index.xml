@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on sysherry&#39;s blog</title>
+    <link>https://sysherrylee.github.io/tags/tech/</link>
+    <description>Recent content in tech on sysherry&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4hr讀《精實開發與看板方法》一書心得</title>
+      <link>https://sysherrylee.github.io/2023/09/06/book-lean-development/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/09/06/book-lean-development/</guid>
+      <description>4hr讀《精實開發與看板方法》一書心得 作者: 李智樺; 書的類型: 技術；主觀推薦閱讀星星數/5: ⭐️⭐️⭐️ ；購買與否: 參考, 絕版 Summary: 若想了解軟體</description>
+    </item>
+    
+  </channel>
+</rss>

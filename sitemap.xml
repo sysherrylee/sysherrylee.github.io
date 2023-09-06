@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sysherrylee.github.io/2023/09/06/book-lean-development/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/book/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sysherrylee.github.io/categories/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/life/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/post/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/tech/</loc>
+    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/categories/ilt/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
@@ -14,25 +35,7 @@
     <loc>https://sysherrylee.github.io/2023/08/24/leetcode-all/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/categories/life/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/post/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/travel/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sysherrylee.github.io/2023/08/24/hello-hugo/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/2023/02/01/may-day-jiulonghu/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/ai/</loc>
@@ -46,6 +49,15 @@
   </url><url>
     <loc>https://sysherrylee.github.io/tags/multichannel/</loc>
     <lastmod>2023-08-22T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/travel/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/post/readme/</loc>
     <lastmod>2019-01-09T00:00:00+00:00</lastmod>

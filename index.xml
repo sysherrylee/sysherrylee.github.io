@@ -6,7 +6,16 @@
     <description>Recent content on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4hr讀《精實開發與看板方法》一書心得</title>
+      <link>https://sysherrylee.github.io/2023/09/06/book-lean-development/</link>
+      <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/09/06/book-lean-development/</guid>
+      <description>4hr讀《精實開發與看板方法》一書心得 作者: 李智樺; 書的類型: 技術；主觀推薦閱讀星星數/5: ⭐️⭐️⭐️ ；購買與否: 參考, 絕版 Summary: 若想了解軟體</description>
+    </item>
+    
     <item>
       <title>Leetcode all</title>
       <link>https://sysherrylee.github.io/2023/08/24/leetcode-all/</link>
@@ -26,21 +35,30 @@
     </item>
     
     <item>
-      <title>川西秘境探险</title>
-      <link>https://sysherrylee.github.io/2023/02/01/may-day-jiulonghu/</link>
-      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysherrylee.github.io/2023/02/01/may-day-jiulonghu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>multi-channel CNN</title>
       <link>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</link>
       <pubDate>Tue, 22 Aug 2023 15:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>2018日本北海道</title>
+      <link>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</guid>
+      <description>行程</description>
+    </item>
+    
+    <item>
+      <title>202302英國冰島自由行</title>
+      <link>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</guid>
+      <description>行程 day date 行程 Day1 1/26(四) 桃園 → 新加坡轉機 → 跨日飛倫敦 Day2 1/27(五) (早)公寓式酒店check-in 10:00大英博物館 Day3 1/28(六)</description>
     </item>
     
     <item>
@@ -58,7 +76,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/about/</guid>
-      <description>關於我 未來老師x軟體工程師。在這邊記錄吃飯的知識跟一些想法。 email: sysherry.lee@gmail.com</description>
+      <description>關於我 未來老師x軟體工程師。在這邊記錄吃飯的知識跟一些想法。 email: sysherry.lee@gmail.com 發表過的論文:</description>
     </item>
     
     <item>

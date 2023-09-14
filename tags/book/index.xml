@@ -16,5 +16,14 @@
       <description>4hr讀《精實開發與看板方法》一書心得 作者: 李智樺; 書的類型: 技術；主觀推薦閱讀星星數/5: ⭐️⭐️⭐️ ；購買與否: 參考, 絕版 Summary: 若想了解軟體</description>
     </item>
     
+    <item>
+      <title>使用Hugo建立網站</title>
+      <link>https://sysherrylee.github.io/2023/08/24/hugo/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/08/24/hugo/</guid>
+      <description>測試</description>
+    </item>
+    
   </channel>
 </rss>

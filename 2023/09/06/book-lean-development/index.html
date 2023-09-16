@@ -71,16 +71,21 @@
     
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G31ZVE5BCY"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-G31ZVE5BCY');
-</script>
 
 </head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G31ZVE5BCY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-G31ZVE5BCY', { 'anonymize_ip': false });
+}
+</script>
 
 
 
@@ -475,7 +480,7 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2023/08/24/leetcode-all/" data-toggle="tooltip" data-placement="top" title="Leetcode all">&larr;
+                        <a href="/2023/09/25/hugo/" data-toggle="tooltip" data-placement="top" title="使用Hugo建立網站">&larr;
                             Previous Post</a>
                     </li>
                     

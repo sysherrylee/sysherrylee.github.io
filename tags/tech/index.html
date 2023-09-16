@@ -71,16 +71,21 @@
     
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G31ZVE5BCY"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-G31ZVE5BCY');
-</script>
 
 </head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G31ZVE5BCY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-G31ZVE5BCY', { 'anonymize_ip': false });
+}
+</script>
 
 
 
@@ -226,7 +231,7 @@
 <hr>
 
 <div class="post-preview">
-    <a href="https://sysherrylee.github.io/2023/08/24/hugo/">
+    <a href="https://sysherrylee.github.io/2023/09/25/hugo/">
         <h2 class="post-title">
             使用Hugo建立網站
         </h2>
@@ -243,7 +248,7 @@
     </a>
     <p class="post-meta">
     
-        Posted by sysherry on Thursday, August 24, 2023
+        Posted by sysherry on Tuesday, September 5, 2023
         
         
     

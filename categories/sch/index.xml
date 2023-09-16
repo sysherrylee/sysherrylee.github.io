@@ -6,22 +6,22 @@
     <description>Recent content in sch on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/sch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/sch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Hugo建立網站</title>
+      <link>https://sysherrylee.github.io/2023/09/25/hugo/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/09/25/hugo/</guid>
+      <description>測試</description>
+    </item>
+    
     <item>
       <title>Leetcode all</title>
       <link>https://sysherrylee.github.io/2023/08/24/leetcode-all/</link>
       <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/2023/08/24/leetcode-all/</guid>
-      <description>測試</description>
-    </item>
-    
-    <item>
-      <title>使用Hugo建立網站</title>
-      <link>https://sysherrylee.github.io/2023/08/24/hugo/</link>
-      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysherrylee.github.io/2023/08/24/hugo/</guid>
       <description>測試</description>
     </item>
     

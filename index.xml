@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>使用Hugo建立網站</title>
+      <title>使用Hugo網站生成器來快速建立屬於自己的網頁</title>
       <link>https://sysherrylee.github.io/2023/09/25/hugo/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/2023/09/25/hugo/</guid>
-      <description>測試</description>
+      <description>在租用 Bluehost 主機並使用 WordPress 平台建立屬於自己的部落格一年後，我決定暫時關閉自架網站，轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思考的內容。這篇會</description>
     </item>
     
     <item>
@@ -35,12 +35,12 @@
     </item>
     
     <item>
-      <title>multi-channel CNN</title>
-      <link>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</link>
-      <pubDate>Tue, 22 Aug 2023 15:00:00 +0000</pubDate>
+      <title>找對架設網站的目的方向很重要！新手的一年網站經營心得</title>
+      <link>https://sysherrylee.github.io/2023/02/12/rookie-in-buliding-website-one-year-experience/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://sysherrylee.github.io/2023/08/22/multi-channel-cnn/</guid>
-      <description>測試</description>
+      <guid>https://sysherrylee.github.io/2023/02/12/rookie-in-buliding-website-one-year-experience/</guid>
+      <description>Photo by Carlos Muza on Unsplash 在租用 Bluehost 主機並使用 WordPress 平台建立屬於自己的部落格一年後，我決定暫時關閉自架網站，轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思考的</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/about/</guid>
-      <description>關於我 未來老師x軟體工程師。在這邊記錄吃飯的知識跟一些想法。 email: sysherry.lee@gmail.com 做過的專案 發表的論文</description>
+      <description>關於我 未來老師x軟體工程師。在這邊記錄吃飯的知識跟一些想法。 email: sysherry.lee@gmail.com 做過的專案 IT邦幫忙 機器學習的 hello world - 用手寫數字辨識系統學習 ML 的 30 天 發表的論文</description>
     </item>
     
     <item>

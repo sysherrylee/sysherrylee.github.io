@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluehost on sysherry&#39;s blog</title>
+    <link>https://sysherrylee.github.io/tags/bluehost/</link>
+    <description>Recent content in bluehost on sysherry&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/bluehost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>找對架設網站的目的方向很重要！新手的一年網站經營心得</title>
+      <link>https://sysherrylee.github.io/2023/02/12/rookie-in-buliding-website-one-year-experience/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/02/12/rookie-in-buliding-website-one-year-experience/</guid>
+      <description>Photo by Carlos Muza on Unsplash 在租用 Bluehost 主機並使用 WordPress 平台建立屬於自己的部落格一年後，我決定暫時關閉自架網站，轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思考的</description>
+    </item>
+    
+  </channel>
+</rss>

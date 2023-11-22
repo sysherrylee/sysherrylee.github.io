@@ -8,12 +8,12 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 16 Sep 2023 15:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/ai-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【Day0】使用chatGPT部署pytorch手寫辨識系統的兩三事</title>
+      <title>【chatGPT-pytorch】使用chatGPT部署pytorch手寫辨識系統的兩三事(DAY0)</title>
       <link>https://sysherrylee.github.io/2023/09/16/digit-recognizer-deployment/</link>
       <pubDate>Sat, 16 Sep 2023 15:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/2023/09/16/digit-recognizer-deployment/</guid>
-      <description>改為0916 臨時接到需要講解手寫數字辨識系統的怎麼製作、部署及說明一些相關注意事項的任務，本來要在 IT 邦幫忙開 SideProject30 主題的系列文，來完善想法及程式</description>
+      <description>(2023/09/16 更新) 臨時接到需要講解手寫數字辨識系統的怎麼製作、部署及說明一些相關注意事項的任務，本來要在 IT 邦幫忙開 SideProject30 主題的系列文，來完善想法及程式碼。</description>
     </item>
     
   </channel>

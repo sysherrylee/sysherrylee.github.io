@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on sysherry&#39;s blog</title>
+    <link>https://sysherrylee.github.io/tags/python/</link>
+    <description>Recent content in python on sysherry&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事</title>
+      <link>https://sysherrylee.github.io/2023/11/22/gcp-python-flask/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/11/22/gcp-python-flask/</guid>
+      <description>這篇是安裝過程遇到的問題記錄，若想知道詳細教學可以參考 10 大神[GCP 教學-Python] #1 部署第一個 Python Flask API 程式這系列的教學文章~ 1.在透過 SSH</description>
+    </item>
+    
+  </channel>
+</rss>

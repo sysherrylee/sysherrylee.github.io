@@ -6,7 +6,16 @@
     <description>Recent content in Categories on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 16 Sep 2023 15:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>各種嘗試</title>
+      <link>https://sysherrylee.github.io/categories/%E5%90%84%E7%A8%AE%E5%98%97%E8%A9%A6/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/categories/%E5%90%84%E7%A8%AE%E5%98%97%E8%A9%A6/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ai-data</title>
       <link>https://sysherrylee.github.io/categories/ai-data/</link>
@@ -17,20 +26,11 @@
     </item>
     
     <item>
-      <title>life</title>
-      <link>https://sysherrylee.github.io/categories/life/</link>
+      <title>閱讀與旅行</title>
+      <link>https://sysherrylee.github.io/categories/%E9%96%B1%E8%AE%80%E8%88%87%E6%97%85%E8%A1%8C/</link>
       <pubDate>Wed, 06 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://sysherrylee.github.io/categories/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sch</title>
-      <link>https://sysherrylee.github.io/categories/sch/</link>
-      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysherrylee.github.io/categories/sch/</guid>
+      <guid>https://sysherrylee.github.io/categories/%E9%96%B1%E8%AE%80%E8%88%87%E6%97%85%E8%A1%8C/</guid>
       <description></description>
     </item>
     

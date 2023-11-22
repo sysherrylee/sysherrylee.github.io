@@ -6,14 +6,23 @@
     <description>Recent content on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 16 Sep 2023 15:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【Day0】使用chatGPT部署pytorch手寫辨識系統的兩三事</title>
+      <title>【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事</title>
+      <link>https://sysherrylee.github.io/2023/11/22/gcp-python-flask/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/11/22/gcp-python-flask/</guid>
+      <description>這篇是安裝過程遇到的問題記錄，若想知道詳細教學可以參考 10 大神[GCP 教學-Python] #1 部署第一個 Python Flask API 程式這系列的教學文章~ 1.在透過 SSH</description>
+    </item>
+    
+    <item>
+      <title>【chatGPT-pytorch】使用chatGPT部署pytorch手寫辨識系統的兩三事(DAY0)</title>
       <link>https://sysherrylee.github.io/2023/09/16/digit-recognizer-deployment/</link>
       <pubDate>Sat, 16 Sep 2023 15:00:00 +0000</pubDate>
       
       <guid>https://sysherrylee.github.io/2023/09/16/digit-recognizer-deployment/</guid>
-      <description>改為0916 臨時接到需要講解手寫數字辨識系統的怎麼製作、部署及說明一些相關注意事項的任務，本來要在 IT 邦幫忙開 SideProject30 主題的系列文，來完善想法及程式</description>
+      <description>(2023/09/16 更新) 臨時接到需要講解手寫數字辨識系統的怎麼製作、部署及說明一些相關注意事項的任務，本來要在 IT 邦幫忙開 SideProject30 主題的系列文，來完善想法及程式碼。</description>
     </item>
     
     <item>
@@ -27,20 +36,11 @@
     
     <item>
       <title>使用Hugo網站生成器來快速建立屬於自己的網頁</title>
-      <link>https://sysherrylee.github.io/2023/09/25/hugo/</link>
+      <link>https://sysherrylee.github.io/2023/09/05/hello-hugo/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://sysherrylee.github.io/2023/09/25/hugo/</guid>
-      <description>在租用 Bluehost 主機並使用 WordPress 平台建立屬於自己的部落格一年後，我決定暫時關閉自架網站，轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思考的內容。這篇會</description>
-    </item>
-    
-    <item>
-      <title>Leetcode all</title>
-      <link>https://sysherrylee.github.io/2023/08/24/leetcode-all/</link>
-      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysherrylee.github.io/2023/08/24/leetcode-all/</guid>
-      <description>測試</description>
+      <guid>https://sysherrylee.github.io/2023/09/05/hello-hugo/</guid>
+      <description>之前寫過 找對架設網站的目的方向很重要！新手的一年網站經營心得 一文，裡面提到關閉自架網站後，我轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思</description>
     </item>
     
     <item>
@@ -50,15 +50,6 @@
       
       <guid>https://sysherrylee.github.io/2023/02/12/rookie-in-buliding-website-one-year-experience/</guid>
       <description>Photo by Carlos Muza on Unsplash 在租用 Bluehost 主機並使用 WordPress 平台建立屬於自己的部落格一年後，我決定暫時關閉自架網站，轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思考的</description>
-    </item>
-    
-    <item>
-      <title>202302英國冰島自由行</title>
-      <link>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</link>
-      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysherrylee.github.io/2023/02/09/uk-is-trip/</guid>
-      <description>行程 測試</description>
     </item>
     
     <item>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on sysherry&#39;s blog</title>
+    <link>https://sysherrylee.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on sysherry&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Hugo網站生成器來快速建立屬於自己的網頁</title>
+      <link>https://sysherrylee.github.io/2023/09/05/hello-hugo/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2023/09/05/hello-hugo/</guid>
+      <description>之前寫過 找對架設網站的目的方向很重要！新手的一年網站經營心得 一文，裡面提到關閉自架網站後，我轉而使用 方格子 跟 Medium 搭配 Notion 筆記軟體來記錄分享學習思</description>
+    </item>
+    
+  </channel>
+</rss>

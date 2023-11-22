@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="sysherry&#39;s blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content=" ">
+    <meta property="twitter:image" content=" " />
+    
+
+    
+    <meta name="title" content="【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事" />
+    <meta property="og:title" content="【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事" />
+    <meta property="twitter:title" content="【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事" />
+    
+
+    
+    <meta name="description" content="記錄部署python Flask相關程式到GCP時，遇到的一些問題及解決方式。">
+    <meta property="og:description" content="記錄部署python Flask相關程式到GCP時，遇到的一些問題及解決方式。" />
+    <meta property="twitter:description" content="記錄部署python Flask相關程式到GCP時，遇到的一些問題及解決方式。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="李仕筠, leeshihyun, shihyun, , sysherry, 個人網站, 機器學習, machine learning, ai, data, python, scratch, 老師, 公費生, ">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事 | sysherry</title>
+
+    <link rel="canonical" href="/2023/11/22/gcp-python-flask/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+    
+    <meta name="google-site-verification" content="HYe-MfceIcNiVdjTvicJ6S8UXaAgloUA9CNwZ3Xc_uI" />
+
+
+
+</head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G31ZVE5BCY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-G31ZVE5BCY', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">sysherry&#39;s blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">最新文章</a>
+                    </li>
+                     
+                         
+                        <li> 
+                            <a href="/categories/ai-data/">ai-data</a> 
+                        </li>
+                         
+                        <li> 
+                            <a href="/categories/%E5%90%84%E7%A8%AE%E5%98%97%E8%A9%A6/">各種嘗試</a> 
+                        </li>
+                         
+                        <li> 
+                            <a href="/categories/%E9%96%B1%E8%AE%80%E8%88%87%E6%97%85%E8%A1%8C/">閱讀與旅行</a> 
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive//">所有文章</a></li>
+                    
+                        <li><a href="/about//">關於我</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/%20')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/python" title="python">
+                            python
+                        </a>
+                        
+                        <a class="tag" href="/tags/flask" title="flask">
+                            flask
+                        </a>
+                        
+                        <a class="tag" href="/tags/gcp" title="gcp">
+                            gcp
+                        </a>
+                        
+                    </div>
+                    <h1>【GCP-python flask】部署python Flask相關程式到GCP時遇到的大小事</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                sysherry
+                             
+                            on 
+                            Tuesday, November 21, 2023
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>這篇是安裝過程遇到的問題記錄，若想知道詳細教學可以參考 10 大神<a href="https://andy6804tw.github.io/2020/03/27/gcp-python-ep1/#%E6%9C%AC%E6%96%87%E6%93%AC%E5%B0%87%E6%9C%83%E5%AD%B8%E5%88%B0">[GCP 教學-Python] #1 部署第一個 Python Flask API 程式</a>這系列的教學文章~</p>
+<h3 id="1在透過-ssh-進入虛擬主機的-cmd-後先進行更新">1.在透過 SSH 進入虛擬主機的 cmd 後，先進行更新。</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get update
+</span></span><span style="display:flex;"><span>sudo apt-get upgrade
+</span></span></code></pre></div><h3 id="2接著安裝-python3-環境">2.接著安裝 python3 環境</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install python3 -y
+</span></span><span style="display:flex;"><span>sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+</span></span></code></pre></div><h3 id="3再來安裝-pip">3.再來安裝 pip</h3>
+<p>需要先進行前面更新，不然會出現 <code>python3-pip has no installation candidate</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install python3-pip
+</span></span></code></pre></div><h3 id="4nano-建立測試用有-flask-套件的-indexpy並注意其位置">4.nano 建立測試用有 flask 套件的 index.py，並注意其位置</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">from</span> flask <span style="color:#ff79c6">import</span> Flask
+</span></span><span style="display:flex;"><span>app<span style="color:#ff79c6">=</span>Flask(__name__)
+</span></span><span style="display:flex;"><span>@app.route(<span style="color:#f1fa8c">&#39;/&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">hello</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#39;hello !&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    app<span style="color:#ff79c6">.</span>run(host<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;0.0.0.0&#39;</span>,port<span style="color:#ff79c6">=</span><span style="color:#bd93f9">80</span>)
+</span></span></code></pre></div><h3 id="5安裝-flask-並執行">5.安裝 flask 並執行</h3>
+<p>因為一開始測試環境開了 80 port 的關係，所以程式必須在管理者權限下進行<code>pip install flask</code>。若沒加管理者權限 sudo，則安裝位置會跑到 user 的 site-package，接下來 <code>sudo python index.py</code> 會顯示 <code>ImportError: No module named flask</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pip install flask
+</span></span><span style="display:flex;"><span>sudo python index.py
+</span></span></code></pre></div><p>若有加 sudo，前面的步驟都有做對但還是顯示 <code>No module named flask</code>，可以看一下目前運行的 python 版本是 python2 還是 python3，不同 python 版本套件安裝的位置不一樣</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#6272a4"># 使用 python3 版本執行的方法</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># 在cmd中執行</span>
+</span></span><span style="display:flex;"><span>ls /usr/bin/python*
+</span></span><span style="display:flex;"><span>nano ~/.bashrc
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># 將這段內容貼到 .bashrc</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">alias</span> <span style="color:#8be9fd;font-style:italic">python</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;/usr/bin/python3.6&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">alias</span> <span style="color:#8be9fd;font-style:italic">pip</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#39;pip3&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># 在cmd中執行</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">source</span> ~/.bashrc
+</span></span><span style="display:flex;"><span>sudo python3 index.py
+</span></span></code></pre></div><p>正常來說經過上面步驟，就可以透過 GCP 的外部 IP 成功看到自己的測試頁面，並進一步安裝需要的 requirements.txt，或安裝 Gunicorn 讓程式可以在背景執行等。</p>
+<h3 id="6若遇到程式有在執行但無法透過外部-ip-登入測試頁面類似-stackoverflow-這個情形">6.若遇到程式有在執行，但無法透過外部 IP 登入測試頁面，類似 stackoverflow 這個情形</h3>
+<p><a href="https://stackoverflow.com/questions/60652573/cant-access-google-cloud-compute-engine-external-ip-to-access-flask-app">Can&rsquo;t access Google Cloud Compute engine external IP to access flask app</a></p>
+<p>可以從幾個地方試試:</p>
+<ul>
+<li>將 Https 的網址改成 Http</li>
+<li>先用 80 port，然後網址後面要加上 :80</li>
+</ul>
+
+
+                
+
+                
+                <script src="https://utteranc.es/client.js" repo="sysherrylee/sysherrylee.github.io" issue-term="pathname"
+                    theme="github-light" crossorigin="anonymous" async>
+                    </script>
+                
+
+
+
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2023/09/16/digit-recognizer-deployment/" data-toggle="tooltip" data-placement="top" title="【chatGPT-pytorch】使用chatGPT部署pytorch手寫辨識系統的兩三事(DAY0)">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/bluehost" title="bluehost">
+                            bluehost
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/book" title="book">
+                            book
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/chatgpt" title="chatgpt">
+                            chatgpt
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/flask" title="flask">
+                            flask
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/gcp" title="gcp">
+                            gcp
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/python" title="python">
+                            python
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/pytorch" title="pytorch">
+                            pytorch
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/table-of-content" title="table-of-content">
+                            table-of-content
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tech" title="tech">
+                            tech
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/wordpress" title="wordpress">
+                            wordpress
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%96%B0%E6%89%8B%E7%B6%93%E9%A9%97" title="新手經驗">
+                            新手經驗
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%9E%B6%E8%A8%AD%E7%B6%B2%E7%AB%99" title="架設網站">
+                            架設網站
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98" title="程式筆記">
+                            程式筆記
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+		<p class="copyright text-muted">
+                    Copyright &copy; sysherry&#39;s blog 2023
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

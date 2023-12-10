@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sysherrylee.github.io/2023/11/22/gcp-python-flask/</loc>
-    <lastmod>2023-11-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sysherrylee.github.io/categories/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/hugo/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/post/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/tech/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/12/09/hello-hugo/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/%E5%90%84%E7%A8%AE%E5%98%97%E8%A9%A6/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/%E6%9E%B6%E8%A8%AD%E7%B6%B2%E7%AB%99/</loc>
+    <lastmod>2023-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/11/25/book-dopamine/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/book/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/%E9%96%B1%E8%AE%80%E8%88%87%E6%97%85%E8%A1%8C/</loc>
+    <lastmod>2023-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/2023/11/22/gcp-python-flask/</loc>
     <lastmod>2023-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/flask/</loc>
@@ -14,19 +47,7 @@
     <loc>https://sysherrylee.github.io/tags/gcp/</loc>
     <lastmod>2023-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sysherrylee.github.io/post/</loc>
-    <lastmod>2023-11-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sysherrylee.github.io/tags/python/</loc>
-    <lastmod>2023-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/</loc>
-    <lastmod>2023-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/</loc>
-    <lastmod>2023-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/categories/%E5%90%84%E7%A8%AE%E5%98%97%E8%A9%A6/</loc>
     <lastmod>2023-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/2023/09/16/digit-recognizer-deployment/</loc>
@@ -46,24 +67,6 @@
   </url><url>
     <loc>https://sysherrylee.github.io/2023/09/06/book-lean-development/</loc>
     <lastmod>2023-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/book/</loc>
-    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/tech/</loc>
-    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/categories/%E9%96%B1%E8%AE%80%E8%88%87%E6%97%85%E8%A1%8C/</loc>
-    <lastmod>2023-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/hugo/</loc>
-    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/2023/09/05/hello-hugo/</loc>
-    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sysherrylee.github.io/tags/%E6%9E%B6%E8%A8%AD%E7%B6%B2%E7%AB%99/</loc>
-    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/bluehost/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>

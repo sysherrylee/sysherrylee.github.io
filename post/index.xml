@@ -6,7 +6,25 @@
     <description>Recent content in Posts on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Git-Log]v1.1 git標籤</title>
+      <link>https://sysherrylee.github.io/2026/02/23/git-log-v1-1-git-tag/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2026/02/23/git-log-v1-1-git-tag/</guid>
+      <description>類型 說明 例子 feat 新增功能 (Feature)，使用者會有感覺的更動 feat: 增加登入功能 fix 修復 Bug fix: 修正按鈕點擊無反應的問題 docs 只改了文件 (Documentation) docs: 更新 README 使用說明</description>
+    </item>
+    
+    <item>
+      <title>【git】二次學習日誌</title>
+      <link>https://sysherrylee.github.io/2026/02/23/git-study-log/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2026/02/23/git-study-log/</guid>
+      <description>近期因需要教會朋友Git跟Github的使用，故藉此機會完整自己對Git的認識。 每個知識點約可在15-20min完成實作並吸收。 [Git-Log]v0.0 為什麼要學</description>
+    </item>
+    
     <item>
       <title>【教學日記】小二數學速算魔法：三位數加法原來可以這樣教！</title>
       <link>https://sysherrylee.github.io/2025/08/03/addition-quick-calculation/</link>

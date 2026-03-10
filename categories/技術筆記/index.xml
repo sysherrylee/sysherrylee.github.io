@@ -6,7 +6,25 @@
     <description>Recent content in 技術筆記 on sysherry&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 09 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://sysherrylee.github.io/categories/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Git-Log]v1.1 git標籤</title>
+      <link>https://sysherrylee.github.io/2026/02/23/git-log-v1-1-git-tag/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2026/02/23/git-log-v1-1-git-tag/</guid>
+      <description>類型 說明 例子 feat 新增功能 (Feature)，使用者會有感覺的更動 feat: 增加登入功能 fix 修復 Bug fix: 修正按鈕點擊無反應的問題 docs 只改了文件 (Documentation) docs: 更新 README 使用說明</description>
+    </item>
+    
+    <item>
+      <title>【git】二次學習日誌</title>
+      <link>https://sysherrylee.github.io/2026/02/23/git-study-log/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysherrylee.github.io/2026/02/23/git-study-log/</guid>
+      <description>近期因需要教會朋友Git跟Github的使用，故藉此機會完整自己對Git的認識。 每個知識點約可在15-20min完成實作並吸收。 [Git-Log]v0.0 為什麼要學</description>
+    </item>
+    
     <item>
       <title>使用Hugo網站生成器來快速建立屬於自己的網頁</title>
       <link>https://sysherrylee.github.io/2023/12/09/hello-hugo/</link>

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="sysherry&#39;s blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content=" ">
+    <meta property="twitter:image" content=" " />
+    
+
+    
+    <meta name="title" content="我用 Claude 把荒廢的部落格救回來了" />
+    <meta property="og:title" content="我用 Claude 把荒廢的部落格救回來了" />
+    <meta property="twitter:title" content="我用 Claude 把荒廢的部落格救回來了" />
+    
+
+    
+    <meta name="description" content="從教育界跳到半導體、從台灣搬到美國，人生大翻面，讓我想重新開始記錄。這篇聊我怎麼發現部落格荒廢的真正原因不是沒時間，而是修句子慢加上發布流程太麻煩，以及我怎麼拿它當第一個測試題，用 Claude Code 一次把兩個問題解決掉。">
+    <meta property="og:description" content="從教育界跳到半導體、從台灣搬到美國，人生大翻面，讓我想重新開始記錄。這篇聊我怎麼發現部落格荒廢的真正原因不是沒時間，而是修句子慢加上發布流程太麻煩，以及我怎麼拿它當第一個測試題，用 Claude Code 一次把兩個問題解決掉。" />
+    <meta property="twitter:description" content="從教育界跳到半導體、從台灣搬到美國，人生大翻面，讓我想重新開始記錄。這篇聊我怎麼發現部落格荒廢的真正原因不是沒時間，而是修句子慢加上發布流程太麻煩，以及我怎麼拿它當第一個測試題，用 Claude Code 一次把兩個問題解決掉。" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="李仕筠, leeshihyun, shihyun, , sysherry, 個人網站, 機器學習, machine learning, ai, data, python, scratch, 老師, 公費生, 教學">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>我用 Claude 把荒廢的部落格救回來了 | sysherry</title>
+
+    <link rel="canonical" href="/2026/07/07/revive-blog-with-claude/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+    
+    <meta name="google-site-verification" content="HYe-MfceIcNiVdjTvicJ6S8UXaAgloUA9CNwZ3Xc_uI" />
+
+
+
+</head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G31ZVE5BCY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-G31ZVE5BCY', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">sysherry&#39;s blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">最新文章</a>
+                    </li>
+                     
+                         
+                        <li> 
+                            <a href="/categories/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/">技術筆記</a> 
+                        </li>
+                         
+                        <li> 
+                            <a href="/categories/%E6%95%99%E5%AD%B8/">教學</a> 
+                        </li>
+                         
+                        <li> 
+                            <a href="/categories/%E9%96%B1%E8%AE%80%E8%88%87%E6%97%85%E8%A1%8C/">閱讀與旅行</a> 
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive//">所有文章</a></li>
+                    
+                        <li><a href="/about//">關於我</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/%20')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/claude" title="claude">
+                            claude
+                        </a>
+                        
+                        <a class="tag" href="/tags/ai" title="ai">
+                            ai
+                        </a>
+                        
+                        <a class="tag" href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E8%87%AA%E5%8B%95%E5%8C%96" title="自動化">
+                            自動化
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E6%96%B0%E6%89%8B%E7%B6%93%E9%A9%97" title="新手經驗">
+                            新手經驗
+                        </a>
+                        
+                        <a class="tag" href="/tags/tech" title="tech">
+                            tech
+                        </a>
+                        
+                    </div>
+                    <h1>我用 Claude 把荒廢的部落格救回來了</h1>
+                    <h2 class="subheading">從一個構想，到讓 AI 接手我的發布流程</h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                sysherry
+                             
+                            on 
+                            Tuesday, July 7, 2026
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <blockquote>
+<p>📝 <strong>這是一篇由 AI 發表的文章。</strong></p>
+</blockquote>
+<p>　　嚴格來說，這篇是我跟一個 AI 一起弄出來的——連你正在讀的這些字，它都幫我順過。等一下會解釋為什麼。</p>
+<p>　　先講近況。這一年我的人生整個大翻面：從教育界跳到半導體業，從台灣搬到美國重新生活。每天睜開眼睛都是新東西要適應，感觸多到快滿出來，很想找個地方好好記下來，也順便分享給之後可能跟我一樣、什麼都得從頭摸索的人。</p>
+<p>　　於是我想起了這個荒廢好久的部落格。</p>
+<h1 id="一我一直以為是自己沒時間"><strong>一、我一直以為是自己沒時間</strong></h1>
+<p>　　說來有點好笑。這個部落格會長草，我本來一直以為是「太忙、沒時間寫」。後來認真想才發現，真正卡住我的根本不是時間——</p>
+<p>　　一個是，我每次寫東西都會忍不住一直回頭改自己的句子，一句話可以磨老半天，一篇文章的成本被我自己弄得超高。另一個是，好不容易寫完，「發布」又是另一關：建置、重建搜尋、複製檔案、上傳……一長串步驟，光想到就懶。</p>
+<p>　　寫得慢，加上發得麻煩，兩個一疊起來，乾脆就不寫了。</p>
+<h1 id="二剛好遇到一個新玩具claude-code"><strong>二、剛好遇到一個新玩具：Claude Code</strong></h1>
+<p>　　搬來美國後想好好記錄生活，我就開始到處找順手的工具，結果認識了 Claude Code——一個可以直接跟它對話、還能實際動手幫你改電腦裡東西的 AI。</p>
+<p>　　我心想，不如就拿「把部落格救回來」當作第一個測試題，看它到底能幫我到什麼程度。</p>
+<p>　　結果它剛好一次打中我前面那兩個痛點：我卡在「一直回頭修句子」，它可以幫我把想講的話順成通順的文章；我嫌「發布太麻煩」，它就幫我把那一長串步驟縫成一個動作，連終端機都不用開。</p>
+<p>　　你現在看到的這篇，就是這樣生出來的。我出一張嘴講我的故事，它幫我整理、幫我發。有點神奇，也有點像作弊。</p>
+<h1 id="三我想把它變成日常幫手"><strong>三、我想把它變成日常幫手</strong></h1>
+<p>　　玩過一輪之後，我還蠻認真地想把 Claude Code 盡量融進生活裡，能用就用，把它當成一個長期的幫手，而不是玩過就收起來的新鮮感。這個復活的部落格，算是我們合作的第一個小成果。</p>
+<p>　　接下來，美國新手的那些關卡——SSN、開銀行帳戶、租房、考駕照——我想一個一個好好記下來。</p>
+<p>　　部落格總算是活過來了。先這樣，下一篇見。</p>
+
+
+                
+
+                
+                <script src="https://utteranc.es/client.js" repo="sysherrylee/sysherrylee.github.io" issue-term="pathname"
+                    theme="github-light" crossorigin="anonymous" async>
+                    </script>
+                
+
+
+
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2026/02/23/git-log-v1-1-git-tag/" data-toggle="tooltip" data-placement="top" title="[Git-Log]v1.1 git標籤">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/ai" title="ai">
+                            ai
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/bluehost" title="bluehost">
+                            bluehost
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/book" title="book">
+                            book
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/chatgpt" title="chatgpt">
+                            chatgpt
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/claude" title="claude">
+                            claude
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/flask" title="flask">
+                            flask
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/gcp" title="gcp">
+                            gcp
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/git" title="git">
+                            git
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/matific" title="matific">
+                            matific
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/python" title="python">
+                            python
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/pytorch" title="pytorch">
+                            pytorch
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/table-of-content" title="table-of-content">
+                            table-of-content
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tech" title="tech">
+                            tech
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/wordpress" title="wordpress">
+                            wordpress
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/work" title="work">
+                            work
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%95%99%E5%AD%B8" title="教學">
+                            教學
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%95%B8%E4%BD%8D%E4%BA%92%E5%8B%95%E9%81%8A%E6%88%B2%E8%B3%87%E6%BA%90" title="數位互動遊戲資源">
+                            數位互動遊戲資源
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%95%B8%E5%AD%B8" title="數學">
+                            數學
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%95%B8%E7%8D%A8" title="數獨">
+                            數獨
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%96%B0%E6%89%8B%E7%B6%93%E9%A9%97" title="新手經驗">
+                            新手經驗
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E6%9E%B6%E8%A8%AD%E7%B6%B2%E7%AB%99" title="架設網站">
+                            架設網站
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98" title="程式筆記">
+                            程式筆記
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/%E8%87%AA%E5%8B%95%E5%8C%96" title="自動化">
+                            自動化
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+		<p class="copyright text-muted">
+                    Copyright &copy; sysherry&#39;s blog 2026
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

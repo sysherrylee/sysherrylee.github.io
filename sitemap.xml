@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sysherrylee.github.io/2026/07/07/newcomer-us-telecom/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sysherrylee.github.io/tags/ai/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,6 +12,12 @@
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/claude/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/esim/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/google-fi/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/tags/hugo/</loc>
@@ -26,6 +35,9 @@
     <loc>https://sysherrylee.github.io/tags/tech/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sysherrylee.github.io/tags/%E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sysherrylee.github.io/2026/07/07/revive-blog-with-claude/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -35,7 +47,16 @@
     <loc>https://sysherrylee.github.io/tags/%E6%96%B0%E6%89%8B%E7%B6%93%E9%A9%97/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sysherrylee.github.io/tags/%E7%BE%8E%E5%9C%8B%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/categories/%E7%BE%8E%E5%9C%8B%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sysherrylee.github.io/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sysherrylee.github.io/tags/%E9%9B%BB%E4%BF%A1/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sysherrylee.github.io/2026/02/23/git-log-v1-1-git-tag/</loc>
